@@ -48,7 +48,7 @@ public class Blocks implements ContentList{
 
     //crafting
     siliconSmelter, siliconCrucible, kiln, graphitePress, plastaniumCompressor, multiPress, phaseWeaver, surgeSmelter, pyratiteMixer, blastMixer, cryofluidMixer,
-    melter, separator, disassembler, sporePress, pulverizer, incinerator, coalCentrifuge,
+    melter, separator, disassembler, sporePress, pulverizer, incinerator, coalCentrifuge, steelSmelter,
 
     //sandbox
     powerSource, powerVoid, itemSource, itemVoid, liquidSource, liquidVoid, illuminator,
@@ -748,6 +748,19 @@ public class Blocks implements ContentList{
 
             consumes.liquid(Liquids.oil, 0.1f);
             consumes.power(0.7f);
+        }};
+
+        steelSmelter = new GenericSmelter("steel-smelter"){{
+            requirements(Category.crafting, with(Items.silicon, 100, Items.lead, 110, Items.thorium, 90, Items.titanium, 120));
+            craftEffect = Fx.smeltsmoke;
+            outputItem = new ItemStack(Items.steel, 1);
+            craftTime = 95f;
+            size = 3;
+            hasPower = true;
+            itemCapacity = 15;
+
+            consumes.power(6f);
+            consumes.items(with(Items.metaglass, 1, Items.titanium, 4, Items.silicon, 2));
         }};
 
         incinerator = new Incinerator("incinerator"){{
