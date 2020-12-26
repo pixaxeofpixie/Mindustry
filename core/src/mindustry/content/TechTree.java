@@ -298,6 +298,9 @@ public class TechTree implements ContentList{
                                     node(spectre, Seq.with(new SectorComplete(nuclearComplex)), () -> {
 
                                     });
+                                    node(hurricane, () -> {
+
+                                    });
                                 });
                             });
 

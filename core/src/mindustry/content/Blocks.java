@@ -76,7 +76,7 @@ public class Blocks implements ContentList{
     coreShard, coreFoundation, coreNucleus, vault, container, unloader,
 
     //turrets
-    duo, scatter, scorch, hail, arc, wave, lancer, swarmer, salvo, fuse, ripple, cyclone, foreshadow, spectre, meltdown, segment, parallax, tsunami,
+    duo, scatter, scorch, hail, arc, wave, lancer, swarmer, salvo, fuse, ripple, cyclone, foreshadow, spectre, meltdown, segment, parallax, tsunami, hurricane,
 
     //units
     commandCenter,
@@ -1860,6 +1860,26 @@ public class Blocks implements ContentList{
 
             health = 200 * size * size;
             consumes.add(new ConsumeLiquidFilter(liquid -> liquid.temperature <= 0.5f && liquid.flammability < 0.1f, 0.5f)).update(false);
+        }};
+
+        hurricane = new ItemTurret("hurricane"){{
+            requirements(Category.turret, with(Items.lead, 210, Items.steel, 105, Items.phaseFabric, 65));
+            ammo(
+                    Items.pyratite, Bullets.fragExplosive,
+                    Items.phaseFabric, Bullets.fragPlastic,
+                    Items.plastanium, Bullets.fragSurge
+            );
+            xRand = 3f;
+            reloadTime = 6f;
+            range = 250f;
+            size = 3;
+            recoilAmount = 5f;
+            rotateSpeed = 12f;
+            inaccuracy = 6f;
+            shootCone = 25f;
+            shootSound = Sounds.shootSnap;
+
+            health = 175 * size * size;
         }};
 
         //endregion
