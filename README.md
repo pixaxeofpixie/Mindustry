@@ -15,18 +15,15 @@ See [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Building
 
-Building guide on official repository - 
+Building guide on official repository - https://github.com/Anuken/Mindustry
 
 ### Server
 
-Server guide on official repository - 
+Server guide on official repository - https://github.com/Anuken/Mindustry
 
 ### Android
 
-Android guide on official repository - 
-
-Gradle may take up to several minutes to download files. Be patient. <br>
-After building, the output .JAR file should be in `/desktop/build/libs/Mindustry.jar` for desktop builds, and in `/server/build/libs/server-release.jar` for server builds.
+Android guide on official repository - https://github.com/Anuken/Mindustry
 
 ## Feature Requests
 
