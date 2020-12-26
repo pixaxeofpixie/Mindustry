@@ -49,7 +49,7 @@ public class Vars implements Loadable{
     /** global charset, since Android doesn't support the Charsets class */
     public static final Charset charset = Charset.forName("UTF-8");
     /** main application name, capitalized */
-    public static final String appName = "Mindustry";
+    public static final String appName = "Mindustry Steel Edition";
     /** URL for itch.io donations. */
     public static final String donationURL = "https://anuke.itch.io/mindustry/purchase";
     /** URL for discord invite. */
