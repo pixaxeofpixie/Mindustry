@@ -41,7 +41,7 @@ public class Vars implements Loadable{
     /** Maximum extra padding around deployment schematics. */
     public static final int maxLoadoutSchematicPad = 5;
     /** Maximum schematic size.*/
-    public static final int maxSchematicSize = 32;
+    public static final int maxSchematicSize = 100;
     /** All schematic base64 starts with this string.*/
     public static final String schematicBaseStart ="bXNjaA";
     /** IO buffer size. */
@@ -69,13 +69,13 @@ public class Vars implements Loadable{
     /** list of built-in servers.*/
     public static final Seq<ServerGroup> defaultServers = Seq.with();
     /** maximum size of any block, do not change unless you know what you're doing */
-    public static final int maxBlockSize = 16;
+    public static final int maxBlockSize = 100;
     /** maximum distance between mine and core that supports automatic transferring */
     public static final float mineTransferRange = 220f;
     /** max chat message length */
-    public static final int maxTextLength = 150;
+    public static final int maxTextLength = 1500;
     /** max player name length in bytes */
-    public static final int maxNameLength = 40;
+    public static final int maxNameLength = 100;
     /** displayed item size when ingame. */
     public static final float itemSize = 5f;
     /** units outside of this bound will die instantly */
@@ -175,11 +175,11 @@ public class Vars implements Loadable{
     /** empty map, indicates no current map */
     public static Map emptyMap;
     /** map file extension */
-    public static final String mapExtension = "msav";
+    public static final String mapExtension = "map";
     /** save file extension */
-    public static final String saveExtension = "msav";
+    public static final String saveExtension = "save";
     /** schematic file extension */
-    public static final String schematicExtension = "msch";
+    public static final String schematicExtension = "schematic";
 
     /** list of all locales that can be switched to */
     public static Locale[] locales;
