@@ -1,6 +1,6 @@
 ![Logo](core/assets/sprites/logo.png)
 
-# Mindustry fork which adds a new material - Steel, and new content related to it.
+# Mindustry fork which adds a new material - Steel, and content related to it.
 
 Steel and Steel Forge | Storm and Glory 
 ------------ | -------------
