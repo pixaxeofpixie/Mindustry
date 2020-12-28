@@ -1,0 +1,72 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+No Android SDK found. Skipping Android module.
+
+> Configure project :
+Compiling with build: 'custom build'
+
+> Task :clean UP-TO-DATE
+> Task :annotations:clean
+> Task :core:clean
+> Task :desktop:clean UP-TO-DATE
+> Task :ios:clean UP-TO-DATE
+> Task :server:clean UP-TO-DATE
+> Task :tests:clean UP-TO-DATE
+> Task :tools:clean UP-TO-DATE
+> Task :annotations:clearCache
+> Task :annotations:compileJava
+> Task :annotations:processResources
+> Task :annotations:classes
+> Task :annotations:jar
+> Task :core:clearCache
+> Task :core:preGen UP-TO-DATE
+> Task :core:compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :core:processResources NO-SOURCE
+> Task :core:classes
+> Task :core:jar
+> Task :tools:clearCache
+> Task :tools:compileJava
+> Task :tools:processResources NO-SOURCE
+> Task :tools:classes
+
+> Task :tools:pack
+[1m[93m[Generator][96m Time to generate [95muipalette[96m: [92m175.23317[96mms[0m
+[1m[93m[Generator][96m Time to generate [95msplashes[96m: [92m14.467807[96mms[0m
+[1m[93m[Generator][96m Time to generate [95mcliffs[96m: [92m26249.49[96mms[0m
+[1m[93m[Generator][96m Time to generate [95mcracks[96m: [92m18959.098[96mms[0m
+[1m[93m[Generator][96m Time to generate [95mblock-icons[96m: [92m9034.933[96mms[0m
+[1m[93m[Generator][96m Time to generate [95mshallows[96m: [92m67.77908[96mms[0m
+Exception in thread "main" java.lang.IllegalArgumentException: Region does not exist: item-steel
+	at mindustry.tools.ImagePacker.err(ImagePacker.java:176)
+	at mindustry.tools.ImagePacker$GenRegion.validate(ImagePacker.java:196)
+	at mindustry.tools.ImagePacker.get(ImagePacker.java:161)
+	at mindustry.tools.ImagePacker.get(ImagePacker.java:153)
+	at mindustry.tools.Generators.lambda$generate$14(Generators.java:372)
+	at mindustry.tools.ImagePacker.generate(ImagePacker.java:140)
+	at mindustry.tools.Generators.generate(Generators.java:370)
+	at mindustry.tools.ImagePacker.main(ImagePacker.java:95)
+
+> Task :tools:pack FAILED
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/Users/mac/Desktop/Mitya/Mindustry-Steel/tools/build.gradle' line: 347
+
+* What went wrong:
+Execution failed for task ':tools:pack'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 5m 46s
+18 actionable tasks: 12 executed, 6 up-to-date

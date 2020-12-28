@@ -76,7 +76,7 @@ public class Blocks implements ContentList{
     coreShard, coreFoundation, coreNucleus, vault, container, unloader,
 
     //turrets
-    duo, scatter, scorch, hail, arc, wave, lancer, swarmer, salvo, fuse, ripple, cyclone, foreshadow, spectre, meltdown, segment, parallax, tsunami, hurricane,
+    duo, scatter, scorch, hail, arc, wave, lancer, swarmer, salvo, fuse, ripple, cyclone, foreshadow, spectre, meltdown, segment, parallax, tsunami, storm, glory,
 
     //units
     commandCenter,
@@ -1862,7 +1862,7 @@ public class Blocks implements ContentList{
             consumes.add(new ConsumeLiquidFilter(liquid -> liquid.temperature <= 0.5f && liquid.flammability < 0.1f, 0.5f)).update(false);
         }};
 
-        hurricane = new ItemTurret("hurricane"){{
+        storm = new ItemTurret("storm"){{
             requirements(Category.turret, with(Items.lead, 210, Items.steel, 105, Items.phaseFabric, 65));
             ammo(
                     Items.pyratite, Bullets.fragExplosive,
@@ -1880,6 +1880,36 @@ public class Blocks implements ContentList{
             shootSound = Sounds.shootSnap;
 
             health = 175 * size * size;
+        }};
+
+        glory = new LaserTurret("glory"){{
+            requirements(Category.turret, with(Items.steel, 340, Items.lead, 350, Items.phaseFabric, 260, Items.surgeAlloy, 360, Items.silicon, 390));
+            shootEffect = Fx.greenBomb;
+            shootCone = 21f;
+            recoilAmount = 6f;
+            size = 4;
+            shootShake = 3f;
+            range = 250f;
+            reloadTime = 100f;
+            firingMoveFract = 0.4f;
+            shootDuration = 280f;
+            powerUse = 23f;
+            shootSound = Sounds.laserblast;
+            loopSound = Sounds.lasercharge2;
+            loopSoundVolume = 2.4f;
+
+            shootType = new ContinuousLaserBulletType(80){{
+                length = 260f;
+                hitEffect = Fx.hitMeltdown;
+                drawSize = 510f;
+
+                incendChance = 0.7f;
+                incendSpread = 9f;
+                incendAmount = 3;
+            }};
+
+            health = 240 * size * size;
+            consumes.add(new ConsumeLiquidFilter(liquid -> liquid.temperature <= 0.5f && liquid.flammability < 0.1f, 0.5f)).update(false);
         }};
 
         //endregion
