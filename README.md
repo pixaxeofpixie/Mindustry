@@ -1,28 +1,6 @@
-![Logo](core/assets-raw/sprites/ui/logo.png)
+![Logo](core/assets/sprites/logo.png)
 
 Mindustry fork which adds a new material - Steel.
-
-## Official game resources
-
-_[Trello Board](https://trello.com/b/aE2tcUwF/mindustry-40-plans)_  
-_[Wiki](https://mindustrygame.github.io/wiki)_  
-_[Javadoc](https://mindustrygame.github.io/docs/)_ 
-
-## Contributing
-
-See [CONTRIBUTING](CONTRIBUTING.md).
-
-## Building
-
-Building guide on official repository - https://github.com/Anuken/Mindustry
-
-### Server
-
-Server guide on official repository - https://github.com/Anuken/Mindustry
-
-### Android
-
-Android guide on official repository - https://github.com/Anuken/Mindustry
 
 ## You can download latest releases of this fork at the - https://github.com/pixaxeofpixie/Mindustry-Steel/releases
 
