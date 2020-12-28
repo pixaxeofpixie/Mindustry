@@ -1,9 +1,8 @@
 ![Logo](core/assets-raw/sprites/ui/logo.png)
 
-[![Build Status](https://travis-ci.org/Anuken/Mindustry.svg?branch=master)](https://travis-ci.org/Anuken/Mindustry) 
-[![Discord](https://img.shields.io/discord/391020510269669376.svg?logo=discord&logoColor=white&logoWidth=20&labelColor=7289DA&label=Discord)](https://discord.gg/mindustry)  
+Mindustry fork which adds a new material - Steel.
 
-Mindustry game fork.
+## Official game resources
 
 _[Trello Board](https://trello.com/b/aE2tcUwF/mindustry-40-plans)_  
 _[Wiki](https://mindustrygame.github.io/wiki)_  
@@ -25,9 +24,7 @@ Server guide on official repository - https://github.com/Anuken/Mindustry
 
 Android guide on official repository - https://github.com/Anuken/Mindustry
 
-## Feature Requests
-
-Post feature requests to Official Game and feedback [here](https://github.com/Anuken/Mindustry-Suggestions/issues/new/choose).
+## You can download latest releases of this fork at the - https://github.com/pixaxeofpixie/Mindustry-Steel/releases
 
 ## Official Game Downloads
 
