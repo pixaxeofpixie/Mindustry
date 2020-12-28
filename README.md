@@ -1,11 +1,10 @@
 ![Logo](core/assets/sprites/logo.png)
 
-## Mindustry fork which adds a new material - Steel, and new content related to it.
+# Mindustry fork which adds a new material - Steel, and content related to it.
 
-## You can download latest releases of this fork at the - https://github.com/pixaxeofpixie/Mindustry-Steel/releases
+Steel and Steel Forge | Storm and Glory 
+------------ | -------------
+![alt tag](https://sun9-12.userapi.com/impg/oH3QvYeMC7YN3kGwomz0-toQ_5cw5HfN8zbcgw/-M0pVhpgcwM.jpg?size=283x408&quality=96&proxy=1&sign=722aa90fdc46888d266131b8433abb9d&type=album) | ![alt tag](https://sun9-67.userapi.com/impg/Kv9jp1ahM9ktUC2nOKr3obgGnfjOezR46rH3Wg/Nq8IzrmTf5g.jpg?size=408x331&quality=96&proxy=1&sign=cd51bc6e11255a28d96e4e4f274a838e&type=album)
 
-## Official Game Downloads
-
-| [![](https://static.itch.io/images/badge.svg)](https://anuke.itch.io/mindustry)    |    [![](https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png)](https://play.google.com/store/apps/details?id=io.anuke.mindustry)   |    [![](https://fdroid.gitlab.io/artwork/badge/get-it-on.png)](https://f-droid.org/packages/io.anuke.mindustry)	| [![](https://flathub.org/assets/badges/flathub-badge-en.svg)](https://flathub.org/apps/details/com.github.Anuken.Mindustry)  
-|---	|---	|---	|---	|
-
+# Downloads 
+[![](https://sun9-9.userapi.com/impg/sOzaMtE7ZUc9ljxQOIuvSRADd9yTWuIUbSL3-A/rdGtjcga1Ko.jpg?size=310x226&quality=96&proxy=1&sign=af000a20dc6dfa973360c817bd0e350f&type=album)](https://github.com/pixaxeofpixie/Mindustry-Steel/releases)

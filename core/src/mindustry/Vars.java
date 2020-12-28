@@ -49,7 +49,7 @@ public class Vars implements Loadable{
     /** global charset, since Android doesn't support the Charsets class */
     public static final Charset charset = Charset.forName("UTF-8");
     /** main application name, capitalized */
-    public static final String appName = "Mindustry Steel Edition";
+    public static final String appName = "Mindustry Steel";
     /** URL for itch.io donations. */
     public static final String donationURL = "https://anuke.itch.io/mindustry/purchase";
     /** URL for discord invite. */
@@ -69,13 +69,13 @@ public class Vars implements Loadable{
     /** list of built-in servers.*/
     public static final Seq<ServerGroup> defaultServers = Seq.with();
     /** maximum size of any block, do not change unless you know what you're doing */
-    public static final int maxBlockSize = 100;
+    public static final int maxBlockSize = 82;
     /** maximum distance between mine and core that supports automatic transferring */
     public static final float mineTransferRange = 220f;
     /** max chat message length */
-    public static final int maxTextLength = 1500;
+    public static final int maxTextLength = 1000;
     /** max player name length in bytes */
-    public static final int maxNameLength = 100;
+    public static final int maxNameLength = 80;
     /** displayed item size when ingame. */
     public static final float itemSize = 5f;
     /** units outside of this bound will die instantly */
