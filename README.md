@@ -1,6 +1,6 @@
 ![Logo](core/assets/sprites/logo.png)
 
-## Mindustry fork which adds a new material - Steel.
+## Mindustry fork which adds a new material - Steel, and new content related to it.
 
 ## You can download latest releases of this fork at the - https://github.com/pixaxeofpixie/Mindustry-Steel/releases
 
