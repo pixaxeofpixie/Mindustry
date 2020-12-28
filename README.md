@@ -6,6 +6,6 @@
 
 ## Official Game Downloads
 
-| [![](https://static.itch.io/images/badge.svg)](https://anuke.itch.io/mindustry)    |    [![](https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png)](https://play.google.com/store/apps/details?id=io.anuke.mindustry)   |    [![](https://fdroid.gitlab.io/artwork/badge/get-it-on.png)](https://f-droid.org/packages/io.anuke.mindustry)	| [![](https://flathub.org/assets/badges/flathub-badge-en.svg)](https://flathub.org/apps/details/com.github.Anuken.Mindustry)  
-|---	|---	|---	|---	|
+[![](https://sun9-9.userapi.com/impg/sOzaMtE7ZUc9ljxQOIuvSRADd9yTWuIUbSL3-A/rdGtjcga1Ko.jpg?size=310x226&quality=96&proxy=1&sign=af000a20dc6dfa973360c817bd0e350f&type=album)](https://github.com/pixaxeofpixie/Mindustry-Steel/releases)
+
 
