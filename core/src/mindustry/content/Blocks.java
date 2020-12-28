@@ -76,7 +76,7 @@ public class Blocks implements ContentList{
     coreShard, coreFoundation, coreNucleus, vault, container, unloader,
 
     //turrets
-    duo, scatter, scorch, hail, arc, wave, lancer, swarmer, salvo, fuse, ripple, cyclone, foreshadow, spectre, meltdown, segment, parallax, tsunami, storm, glory,
+    duo, scatter, scorch, hail, arc, wave, lancer, swarmer, salvo, fuse, ripple, cyclone, foreshadow, spectre, meltdown, segment, parallax, tsunami, storm, glory, bless,
 
     //units
     commandCenter,
@@ -1564,15 +1564,15 @@ public class Blocks implements ContentList{
         arc = new PowerTurret("arc"){{
             requirements(Category.turret, with(Items.copper, 50, Items.lead, 50));
             shootType = new LightningBulletType(){{
-                damage = 20;
+                damage = 15;
                 lightningLength = 25;
-                collidesAir = false;
+                collidesAir = true;
             }};
             reloadTime = 35f;
             shootCone = 40f;
             rotateSpeed = 8f;
             powerUse = 3.3f;
-            targetAir = false;
+            targetAir = true;
             range = 90f;
             shootEffect = Fx.lightningShoot;
             heatColor = Color.red;
@@ -1910,6 +1910,34 @@ public class Blocks implements ContentList{
 
             health = 240 * size * size;
             consumes.add(new ConsumeLiquidFilter(liquid -> liquid.temperature <= 0.5f && liquid.flammability < 0.1f, 0.5f)).update(false);
+        }};
+
+        bless = new ItemTurret("bless"){{
+            requirements(Category.turret, with(Items.lead, 200, Items.titanium, 80, Items.plastanium, 65, Items.copper, 200, Items.metaglass, 100));
+            ammo(
+                    Items.surgeAlloy, new SapBulletType(){{
+                        sapStrength = 0.90f;
+                        length = 70f;
+                        damage = 45;
+                        shootEffect = Fx.sapExplosion;
+                        hitColor = color = Color.valueOf("91cef7");
+                        despawnEffect = Fx.sapped;
+                        width = 0.9f;
+                        lifetime = 40f;
+                        knockback = -1.3f;
+                    }}
+                    );
+            xRand = 1f;
+            reloadTime = 40f;
+            range = 130f;
+            size = 3;
+            recoilAmount = 3f;
+            rotateSpeed = 8f;
+            inaccuracy = 1f;
+            shootCone = 15f;
+            shootSound = Sounds.shootSnap;
+
+            health = 185 * size * size;
         }};
 
         //endregion
