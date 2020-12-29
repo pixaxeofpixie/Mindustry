@@ -175,11 +175,11 @@ public class Vars implements Loadable{
     /** empty map, indicates no current map */
     public static Map emptyMap;
     /** map file extension */
-    public static final String mapExtension = "map";
+    public static final String mapExtension = "msav";
     /** save file extension */
-    public static final String saveExtension = "save";
+    public static final String saveExtension = "msav";
     /** schematic file extension */
-    public static final String schematicExtension = "schematic";
+    public static final String schematicExtension = "msch";
 
     /** list of all locales that can be switched to */
     public static Locale[] locales;
